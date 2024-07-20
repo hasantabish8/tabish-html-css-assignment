@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px 5px;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px 4px;
+    
+    background-color: #8e85c4;
+    border-bottom: 5px solid #6e6262;
+    position: fixed;
+    width: 100%;
+    
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 5px;
+    
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 90px;
+    margin: 6px;
+}
+
+header .search-subscribe {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+header .search-subscribe input {
+    padding: 5px;
+    margin-right: 10px;
+    width: 300px;
+   
+}
+
+header .search-subscribe button {
+    margin-right: 10px;
+}
+
+
+nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+    padding: 0px;
+    
+    
+}
+
+nav ul li a {
+    text-decoration:none;
+    color: #ffffff;
+    
+}
+a:hover {
+    background-color: rgb(129, 99, 59);
+  }
+
+main {
+    padding: 50px 40px 60px; /* Added padding to account for the fixed header */
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #a78080;
+}
+main2 {
+    padding: 240px 40px 60px; /* Added padding to account for the fixed header */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 20px;
+}
+.charlie {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.charlie-top {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-image p {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 2px 0;
+    background-color: #b68989;
+    border-top: 5px solid #6e6262;
+}
+
+/* for contact */
+form {
+    
+    margin: 0px 30px;
+    
+}
+input{
+    padding: 6px;
+    margin:2px
+}
+.main-block {
+        max-width: 340px; 
+        min-height: 450px; 
+        padding: 15px 0;
+        margin: auto;
+        border-radius: 5px; 
+        border: solid 1px #ccc;
+        box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+        background: #9f4f4f; 
+        }
+
+        .h-image {
+            flex: 1;
+            text-align: center;
+            max-height: 460px;
+        }
+        .main3-block {
+            max-width: 340px; 
+            min-height: 150px; 
+            padding: 0px 0;
+            margin: auto;
+        }
+            
+           
+            /*.......for slideshow */  
+            .content {
+                max-width: 800px;
+                text-align:center;
+                margin: auto;
+              }
+              .simple-ss {
+                width: 300px;
+                height: 140px;
+                background-color: #eeeeee;
+                margin: auto;
+                background-image: url("./frd2.jpeg");
+                animation-name: slide;
+                animation-duration: 10s;
+                animation-direction: normal;
+                animation-timing-function: ease;
+                animation-iteration-count: infinite;
+              }
+              @keyframes slide {
+                0% {
+                  background-position: 0 0;
+                }
+                16.66% {
+                  background-position: 0 0;
+                }
+                33.32% {
+                  background-position: -800px 0;
+                }
+                49.98% {
+                  background-position: -800px 0;
+                }
+                66.64% {
+                  background-position: -1600px 0;
+                }
+                83.30% {
+                  background-position: -1600px 0;
+                }
+                100% {
+                  background-position: 0 0;
+                }
+              }
+             
+          /*  main about*/
+          main_about {  
+              padding: 240px 40px 60px; /* Added padding to account for the fixed header */
+            display: block;
+            justify-content:left;
+            
+        
+        }
